@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.source  = { :git => 'https://github.com/yellokrow/Utilities.git', :tag => s.version }
     s.source_files = 'Utilities/*.swift'
     s.osx.deployment_target = '10.11'
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+    s.swift_version = '4.1'
 
-    s.dependency 'XCGLogger'
+    s.dependency 'XCGLogger', '~> 6.0.2'
 end
