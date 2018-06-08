@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		D128E5991EB81E8C00A9EBB3 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D128E5971EB81E8C00A9EBB3 /* Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1D85A2620C79CE50070A385 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D85A2520C79CE50070A385 /* Logger.swift */; };
-		F374688784775346826813BC /* Pods_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A279AD52C65928DE8B8C5 /* Pods_Utilities.framework */; };
+		E669943460346E730FD88028 /* Pods_YKUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A62D5A2FC43A744F258DEA /* Pods_YKUtilities.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		455106873C59B524A635ABC1 /* Pods-Utilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-Utilities/Pods-Utilities.release.xcconfig"; sourceTree = "<group>"; };
-		56B5488A6DD6E4C9AD7A08DC /* Pods-Utilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Utilities/Pods-Utilities.debug.xcconfig"; sourceTree = "<group>"; };
-		CD4A279AD52C65928DE8B8C5 /* Pods_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D128E5941EB81E8C00A9EBB3 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A62D5A2FC43A744F258DEA /* Pods_YKUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0445E1484BD5F1137CC244 /* Pods-YKUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKUtilities/Pods-YKUtilities.release.xcconfig"; sourceTree = "<group>"; };
+		D128E5941EB81E8C00A9EBB3 /* YKUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D128E5971EB81E8C00A9EBB3 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		D128E5981EB81E8C00A9EBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D85A2520C79CE50070A385 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		E78513319EEEF7C5859D93A7 /* Pods-YKUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKUtilities/Pods-YKUtilities.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,26 +27,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F374688784775346826813BC /* Pods_Utilities.framework in Frameworks */,
+				E669943460346E730FD88028 /* Pods_YKUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DE501F58AF9FC1FD9F99839 /* Frameworks */ = {
+		0E5493CA303AD72AD6818FFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD4A279AD52C65928DE8B8C5 /* Pods_Utilities.framework */,
+				17A62D5A2FC43A744F258DEA /* Pods_YKUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2ED5C403AFDD7CB2A57185F0 /* Pods */ = {
+		3FD2EE6BD866466C7443DF4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				56B5488A6DD6E4C9AD7A08DC /* Pods-Utilities.debug.xcconfig */,
-				455106873C59B524A635ABC1 /* Pods-Utilities.release.xcconfig */,
+				E78513319EEEF7C5859D93A7 /* Pods-YKUtilities.debug.xcconfig */,
+				6C0445E1484BD5F1137CC244 /* Pods-YKUtilities.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -54,29 +54,29 @@
 		D128E58A1EB81E8C00A9EBB3 = {
 			isa = PBXGroup;
 			children = (
-				D128E5961EB81E8C00A9EBB3 /* Utilities */,
+				D128E5961EB81E8C00A9EBB3 /* YKUtilities */,
 				D128E5951EB81E8C00A9EBB3 /* Products */,
-				2ED5C403AFDD7CB2A57185F0 /* Pods */,
-				2DE501F58AF9FC1FD9F99839 /* Frameworks */,
+				3FD2EE6BD866466C7443DF4E /* Pods */,
+				0E5493CA303AD72AD6818FFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D128E5951EB81E8C00A9EBB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D128E5941EB81E8C00A9EBB3 /* Utilities.framework */,
+				D128E5941EB81E8C00A9EBB3 /* YKUtilities.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D128E5961EB81E8C00A9EBB3 /* Utilities */ = {
+		D128E5961EB81E8C00A9EBB3 /* YKUtilities */ = {
 			isa = PBXGroup;
 			children = (
 				D1D85A2520C79CE50070A385 /* Logger.swift */,
 				D128E5971EB81E8C00A9EBB3 /* Utilities.h */,
 				D128E5981EB81E8C00A9EBB3 /* Info.plist */,
 			);
-			path = Utilities;
+			path = YKUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,24 +93,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D128E5931EB81E8C00A9EBB3 /* Utilities */ = {
+		D128E5931EB81E8C00A9EBB3 /* YKUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D128E59C1EB81E8C00A9EBB3 /* Build configuration list for PBXNativeTarget "Utilities" */;
+			buildConfigurationList = D128E59C1EB81E8C00A9EBB3 /* Build configuration list for PBXNativeTarget "YKUtilities" */;
 			buildPhases = (
-				14FC0D2AC16ABF172CDDFA5C /* [CP] Check Pods Manifest.lock */,
+				66A8F47962F307B3A8ECD026 /* [CP] Check Pods Manifest.lock */,
 				D128E58F1EB81E8C00A9EBB3 /* Sources */,
 				D128E5901EB81E8C00A9EBB3 /* Frameworks */,
 				D128E5911EB81E8C00A9EBB3 /* Headers */,
 				D128E5921EB81E8C00A9EBB3 /* Resources */,
-				400FDDEEBA04A8616C157A5B /* [CP] Copy Pods Resources */,
+				F521D293281121DE42035AB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Utilities;
+			name = YKUtilities;
 			productName = Utilities;
-			productReference = D128E5941EB81E8C00A9EBB3 /* Utilities.framework */;
+			productReference = D128E5941EB81E8C00A9EBB3 /* YKUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D128E58E1EB81E8C00A9EBB3 /* Build configuration list for PBXProject "Utilities" */;
+			buildConfigurationList = D128E58E1EB81E8C00A9EBB3 /* Build configuration list for PBXProject "YKUtilities" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D128E5931EB81E8C00A9EBB3 /* Utilities */,
+				D128E5931EB81E8C00A9EBB3 /* YKUtilities */,
 			);
 		};
 /* End PBXProject section */
@@ -157,7 +157,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14FC0D2AC16ABF172CDDFA5C /* [CP] Check Pods Manifest.lock */ = {
+		66A8F47962F307B3A8ECD026 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,14 +168,14 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Utilities-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-YKUtilities-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		400FDDEEBA04A8616C157A5B /* [CP] Copy Pods Resources */ = {
+		F521D293281121DE42035AB8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,7 +187,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Utilities/Pods-Utilities-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKUtilities/Pods-YKUtilities-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -320,7 +320,7 @@
 		};
 		D128E59D1EB81E8C00A9EBB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56B5488A6DD6E4C9AD7A08DC /* Pods-Utilities.debug.xcconfig */;
+			baseConfigurationReference = E78513319EEEF7C5859D93A7 /* Pods-YKUtilities.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -330,11 +330,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Utilities/Info.plist;
+				INFOPLIST_FILE = YKUtilities/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.Utilities;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.YKUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -344,7 +344,7 @@
 		};
 		D128E59E1EB81E8C00A9EBB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 455106873C59B524A635ABC1 /* Pods-Utilities.release.xcconfig */;
+			baseConfigurationReference = 6C0445E1484BD5F1137CC244 /* Pods-YKUtilities.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -354,11 +354,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Utilities/Info.plist;
+				INFOPLIST_FILE = YKUtilities/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.Utilities;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.YKUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -368,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D128E58E1EB81E8C00A9EBB3 /* Build configuration list for PBXProject "Utilities" */ = {
+		D128E58E1EB81E8C00A9EBB3 /* Build configuration list for PBXProject "YKUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D128E59A1EB81E8C00A9EBB3 /* Debug */,
@@ -377,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D128E59C1EB81E8C00A9EBB3 /* Build configuration list for PBXNativeTarget "Utilities" */ = {
+		D128E59C1EB81E8C00A9EBB3 /* Build configuration list for PBXNativeTarget "YKUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D128E59D1EB81E8C00A9EBB3 /* Debug */,
